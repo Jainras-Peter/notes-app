@@ -1,24 +1,14 @@
-Great job completing all the functionalities! Here's a professional and complete `README.md` for your full-stack note-taking application project:
 
----
 
-````markdown
 # ✍️ Notes App
 
-A full-stack note-taking application where users can sign up using email + OTP or Google login, securely create/delete notes, and view their user profile. The app is built with modern technologies and fully mobile-responsive following the provided UI design.
+A full-stack note-taking application where users can sign up using email + OTP or Google login, securely create/delete notes, and view their user profile. The app is built with modern technologies and is fully mobile-responsive following the provided UI design.
 
 ---
 
 ## 🚀 Live Demo
 
-🌐 [Visit the Deployed App](https://your-deployment-url.com)
-
----
-
-## 📸 Preview
-
-> ![App Preview](./assets/preview.png)  
-*(Replace with actual screenshots or GIFs)*
+🌐 [Visit the Deployed App](https://glittering-cat-2f49c8.netlify.app)
 
 ---
 
@@ -42,13 +32,13 @@ A full-stack note-taking application where users can sign up using email + OTP o
 
 ## 🔑 Features
 
-- ✅ Email + OTP signup with validation
-- ✅ Google account login/signup (OAuth2)
-- ✅ JWT-based authentication
-- ✅ Create/Delete personal notes
-- ✅ Display welcome page with user info
-- ✅ Mobile-friendly, pixel-perfect UI
-- ✅ API error handling with toast/messages
+- ✅ Email + OTP signup with validation  
+- ✅ Google account login/signup (OAuth2)  
+- ✅ JWT-based authentication  
+- ✅ Create/Delete personal notes  
+- ✅ Display welcome page with user info  
+- ✅ Mobile-friendly, pixel-perfect UI  
+- ✅ API error handling with toast/messages  
 
 ---
 
@@ -110,6 +100,8 @@ SENDGRID_API_KEY=your_sendgrid_key
 EMAIL_SENDER=verified_email@example.com
 ```
 
+Run the backend:
+
 ```bash
 npm run dev
 ```
@@ -136,7 +128,7 @@ VITE_API_BASE_URL=http://localhost:5000/api
 
 * Go to [Google Cloud Console](https://console.cloud.google.com/)
 * Create OAuth credentials
-* Add `http://localhost:5173` and your deployed URL as redirect URIs
+* Add `http://localhost:5173` and your deployed Netlify URL as redirect URIs
 * Save `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` in backend `.env`
 
 ---
@@ -156,7 +148,7 @@ VITE_API_BASE_URL=http://localhost:5000/api
 * `POST /api/notes`
 * `DELETE /api/notes/:id`
 
-All notes routes require a valid JWT in the `Authorization` header.
+👉 All notes routes require a valid JWT in the `Authorization` header.
 
 ---
 
@@ -182,22 +174,8 @@ All notes routes require a valid JWT in the `Authorization` header.
 
 ## 📤 Deployment
 
-You can deploy using:
+* [Netlify](https://glittering-cat-2f49c8.netlify.app) 
 
-### Frontend
-
-* [Vercel](https://vercel.com/)
-
-
-### Backend
-
-* [Render](https://render.com/)
-
----
-
-## 📄 License
-
-MIT License
 
 ---
 
@@ -205,6 +183,5 @@ MIT License
 
 
 
-```
 
 
