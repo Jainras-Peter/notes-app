@@ -64,7 +64,7 @@ export function createServer() {
   app.post("/api/auth/clear-otp", clearOTPForEmail);
 
   // Google OAuth routes
-  app.get("/api/auth/google", googleAuth);
+  app.get("/auth/google", googleAuth);
   app.get("/auth/google/callback", googleCallback);
 
   // Protected notes routes
