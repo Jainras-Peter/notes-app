@@ -65,7 +65,7 @@ export function createServer() {
 
   // Google OAuth routes
   app.get("/api/auth/google", googleAuth);
-  app.get("/api/auth/google/callback", googleCallback);
+  app.get("/auth/google/callback", googleCallback);
 
   // Protected notes routes
   app.get("/api/notes", authenticateToken, getNotes);
